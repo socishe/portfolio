@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sihle Socishe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Sihle Socishe</td>
+                <td id="navigation">
+                    <a href="#bio">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Software Developer</h1>
+                <a href="sihlesocishe.pdf" download class="btn_one">Hire Me</a><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.linkedin.com/in/socishe/" target="_blank" class="social"><i class="fab fa-linkedin-in"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://github.com/socishe" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://twitter.com/SihleSocishe" target="_blank"class="social"><i class="fab fa-twitter"></i></a></td>
+                        <!-- <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td> -->
+                       <!--  <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td> -->
+                                                                
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="bio">
+        <h1>About</h1>
+        <p> I am a front-end web developer, I have built several websites for small startups, looking at a design I can convert into a HTML CSS template with Pixel perfect precision. I use bootstrap very often, so the turn around of my projects is very quick, and I always use GIT to track my progress and files, as well to collaborate with other developers.</p>
+
+        <p> Currently I am learning React, looking forward to Vue and Angular. I am looking for a position where I can progress and challenge my skills.  </p>
+        
+    </div>
+<!-- ************ PROJECTS / PORTFOLIO  ************** -->
+      <div id="projects" class="projects">
+        <h1>Projects</h1>
+        <div class="content-wrap divider">
+          
+          <p>View selected projects below. More information can be found on <a href="https://github.com/socishe">github</a></p>
+
+          <!-- Project 1 -->
+          <section class="project-item">
+            <img src="images/cutag.png" alt="Cutag Recrutment Website for University Students">
+            <h3>Recruitment Website for Graduates</h3>
+            <p>Developed a platform for University Students & Graduates to find jobs. Where employers search, find & meet graduates who are seeking to kickstart or advance their careers</p>
+            <a class="btn" href="https://cutag.co.za/" target="_blank">View Site</a>
+          </section>
+
+          <!-- Project 2 -->
+          <section class="project-item">
+            <img src="images/youtubelite.png" alt="Youtube lite search engine">
+            <h3>React Youtube lite</h3>
+            <p>A simple lite version of youtube site built with React using Youtube API. </p>
+            <p>Helped understand how to use Youtube API and fetch data using youtube-api-search package. Better understanding of how props and state work</p>
+            <a class="btn" href="https://socishe.github.io/youtubelite/" target="_blank">View Site</a>
+          </section>
+          
+
+           <!-- Project 3 -->
+           <section class="project-item">
+            <img src="images/moveit.png" alt="Women and Tech website">
+            <h3>Move It</h3>
+            <p>Move It is a client site that specialises for Furniture Removals and Storage. </p>
+            <a class="btn" href="https://www.moveit.co.za/" target="_blank">View Site</a>
+          </section>
+        </div>
+      </div>
+<!-- ****************  WORK EXPERIENCE  ******************** -->
+      <section id="experience" class="work-experience">
+        <h1>Experience</h1>
+        <div class="content-wrap item-details divider">
+          <!-- Job 1 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Front-end Developer</h3>
+              <p>Enrooting Technologies</p>
+              <p>July 2016-Present</p>
+            </div>
+            <div class="job-summary">
+              <p>Provides various front-end related services ranging from development work and speaking engagements  </p>
+              <p>Key contributions:</p>
+              <ul>
+                  <li>Website Optimisation</li>
+                  <ul>
+                      <li>Increased the website speet from 70 to 86 on Google page speed score</li>
+                      <li>Minified and compressed files</li>
+                      <li>Optimised the critical rendering path, to load the HTML faster</li>
+                  </ul>
+                  <li>Improved the website design, which is now bringing more traffic</li>
+                  <li>Writes clean, readable and modular code using best practices such as MVC and asynchronous programming patterns</li>
+                  <li>Creates high fidelity mock-ups for presentations</li>
+              </ul>
+            </div>
+          </section>
+
+         
+
+          <!-- Job 3 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Computer Science Tutor</h3>
+              <p>Rhodes University</p>
+              <p>February 2019 - November 2019</p>
+            </div>
+            <div class="job-summary">
+              <p></p>
+              <p>Key contributions:</p>
+              <ul>
+                <li> Helping students develop study skills and techniques to improve their academic performance in Computer Sciences.</li>
+                <li> Assessing student performance through marking their practical work. </li>
+                <li> Supervising and coaching students during practical sessions.</li>
+              </ul>
+            </div>
+          </section>
+
+          <p>See my complete work history on <a href="https://www.linkedin.com/in/socishe/" target="_blank">LinkedIn</a>.</p>
+        </div>
+      </section>
+      <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+    
+    <div id="contact">
+        <h1>Contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +27 78 133 3371</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; sihlesocishe@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        12 Pringle Street,<br>
+                                        Grahamstown,<br>
+                                        South Africa
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.linkedin.com/in/socishe/" target="_blank" class="social"><i class="fab fa-linkedin-in" ></i></a> 
+                                        <a href="https://github.com/socishe" target="_blank" class="social"><i class="fab fa-github"></i></a>
+                                        <!-- <a class="social"><i class="fab fa-twitter"></i></a>
+                                        <a class="social"><i class="fab fa-dribbble"></i></a> -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form method="post" action="contact-form-handler.php">
+                            <input name="name" type="text" placeholder="name" required>
+                            <input name="email" type="email" placeholder="email" required><br>
+                            <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        Created by Sihle Socishe
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
